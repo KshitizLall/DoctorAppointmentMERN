@@ -108,23 +108,34 @@ p{
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-image:url('./img/2.jpg');
-  background-color: #cccccc; /* Used if the image is unavailable */
+  justify-content: right;
+  /* background-image:url('./img/2.jpg'); */
+  background-color:rgba(37,183,225,255); /* Used if the image is unavailable */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
+.left-gif{
+  margin-right: 50px;
+}
 .authentication-form{
   width: 400px;
+  margin-right: 310px;
+  
 }
 .authentication .card-title{
   font-size: 1.5rem;
   font-weight: bold;
-  background-color: #CEDC00;
-  color: #00594F !important;
+  background-color: orangered;
+  color: white !important;
   max-width: max-content !important;
   padding: 7px 15px;
   margin-left: -40px;
   border-bottom-left-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .authentication-form {
+    margin-left: 50px;
+  }
 }

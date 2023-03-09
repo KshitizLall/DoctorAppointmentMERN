@@ -116,11 +116,12 @@ function BookAppointment() {
           <Row gutter={20} className="mt-5" align="middle">
             <Col span={8} sm={30} xs={24} lg={8}>
               <img
-                src="https://www.upperdeckresort.com/assets/images/Nav/book-now-hover.gif"
+                src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTlhYzA1NWIyMTkwNTdkODExZTY5MGZjZDljNjc5YjUwMTAxZGIwOCZjdD1z/EAkvNkimgOxvIryUzE/giphy.gif"
                 alt=""
                 width="100%"
                 height="400"
               />
+             
             </Col>
             <Col span={8} sm={24} xs={24} lg={8}>
               <h1 className="normal-text">

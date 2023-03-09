@@ -28,14 +28,7 @@ function Layout({ children }) {
             icon: 'ri-hospital-line'
 
         },
-        {
-            name: 'Profile',
-            path: '/profile',
-            icon: 'ri-user-line'
-
-        },
-
-    ];
+     ];
 
   const doctorMenu = [
     {

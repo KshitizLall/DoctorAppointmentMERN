@@ -5,6 +5,7 @@ import { Col, Row } from "antd";
 import Doctor from "../components/Doctor";
 import { useDispatch, useSelector } from "react-redux";
 import { showLoading, hideLoading } from "../redux/alertsSlice";
+
 function Home() {
   const [doctors, setDoctors] = useState([]);
   const dispatch = useDispatch();
@@ -30,7 +31,7 @@ function Home() {
   }, []);
   return (
     <Layout>
-      <Row gutter={20}>
+      <Row gutter={[20, 20]}>
         {doctors.map((doctor) => (
           <Col span={8} xs={24} sm={24} lg={8}>
             <Doctor doctor={doctor} />

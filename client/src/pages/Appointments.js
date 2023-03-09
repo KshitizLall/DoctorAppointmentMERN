@@ -13,14 +13,14 @@ function Appointments() {
   const getAppointmentsData = async () => {
     try {
       dispatch(showLoading());
-      const response = await axios.get("/api/user/get-appointments-by-user-id", {
+      const resposne = await axios.get("/api/user/get-appointments-by-user-id", {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("token")}`,
         },
       });
       dispatch(hideLoading());
-      if (response.data.success) {
-        setAppointments(response.data.data);
+      if (resposne.data.success) {
+        setAppointments(resposne.data.data);
       }
     } catch (error) {
       dispatch(hideLoading());
