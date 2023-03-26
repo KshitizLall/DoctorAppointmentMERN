@@ -118,7 +118,21 @@ p {
   text-decoration: underline !important;
 }
 
+.homepage {
+  height: 100vh;
+  color: #ffffff;
+  font-size: medium;
+  display: flex;
+  background: rgb(63, 251, 173);
+  background: radial-gradient(circle, rgba(63, 251, 173, 1) 0%, rgba(70, 153, 252, 1) 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.text-color{
+  color: #ffffff;
+}
 
 
 /* authentication pages */
@@ -188,4 +202,3 @@ p {
 
 
 /* TITLE ANIMATION */
-
