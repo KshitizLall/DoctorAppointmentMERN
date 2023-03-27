@@ -123,14 +123,14 @@ p {
   color: #ffffff;
   font-size: medium;
   display: flex;
-  background: rgb(63, 251, 173);
-  background: radial-gradient(circle, rgba(63, 251, 173, 1) 0%, rgba(70, 153, 252, 1) 100%);
+  background: rgb(34, 102, 195);
+  background: linear-gradient(90deg, rgba(34, 102, 195, 1) 0%, rgba(45, 253, 177, 1) 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.text-color{
+.text-color {
   color: #ffffff;
 }
 
@@ -144,8 +144,8 @@ p {
   /* background-image:url('./img/2.jpg'); */
   /* background-color: #598735; */
   /* Used if the image is unavailable */
-  background: rgb(63, 251, 173);
-  background: radial-gradient(circle, rgba(63, 251, 173, 1) 0%, rgba(70, 153, 252, 1) 100%);
+  background: rgb(34, 102, 195);
+  background: linear-gradient(90deg, rgba(34, 102, 195, 1) 0%, rgba(45, 253, 177, 1) 100%);
   background-position: center;
   /* Center the image */
   background-repeat: no-repeat;
